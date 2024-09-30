@@ -76,14 +76,14 @@ yescoin_menu() {
             echo "======================================="
             echo "        Running Start option..."
             echo "======================================="
-            cd "taptap/files/YesCoin (GOLD)"
+            cd taptap/files/'YesCoin (GOLD)'
             python yescoin.py
             ;;
         2)
             echo "======================================="
             echo "        Running Edit query option..."
             echo "======================================="
-            cd "taptap/files/YesCoin (GOLD)"
+            cd taptap/files/'YesCoin (GOLD)'
             nano query.txt
             ;;
         3)
@@ -112,14 +112,14 @@ memefi_1clickkillboss_menu() {
             echo "======================================="
             echo "        Running Start option..."
             echo "======================================="
-            cd "taptap/files/Memefi"
+            cd taptap/files/Memefi
             python memefi.py
             ;;
         2)
             echo "======================================="
             echo "        Running Edit query option..."
             echo "======================================="
-            cd "taptap/files/Memefi"
+            cd taptap/files/Memefi
             nano query_id.txt
             ;;
         3)
